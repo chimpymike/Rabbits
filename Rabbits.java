@@ -1,5 +1,9 @@
 class Rabbits {
     public static void main(String[] args) {
+	for (int month = 1; month <= 12; month++) {
+	    System.out.println("At the end of month#" + month + ", there are "
+			       + fibo(month) + " mature rabbit pairs.");
+	}
     }
 
     public static int fibo(int month) {
